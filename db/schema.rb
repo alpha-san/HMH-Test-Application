@@ -19,41 +19,43 @@ ActiveRecord::Schema.define(version: 20150331025816) do
   end
 
   create_table "test_cases", force: :cascade do |t|
-    t.string   "id_description"
-    t.string   "title"
-    t.integer  "use_case_id"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.string   "id_description", limit: 255, null: false
+    t.string   "title",          limit: 255
+    t.integer  "use_case_id",    limit: 4
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
+
+  add_index "test_cases", ["id_description"], name: "index_test_cases_on_id_description", unique: true, using: :btree
 
   create_table "test_executions", force: :cascade do |t|
     t.datetime "date"
-    t.integer  "test_result_id"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.integer  "test_result_id", limit: 4
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
   create_table "test_results", force: :cascade do |t|
-    t.boolean  "status"
-    t.string   "comment"
-    t.integer  "test_execution_id"
-    t.integer  "test_step_id"
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
+    t.boolean  "status",            limit: 1
+    t.string   "comment",           limit: 255
+    t.integer  "test_execution_id", limit: 4
+    t.integer  "test_step_id",      limit: 4
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
   end
 
   create_table "test_steps", force: :cascade do |t|
-    t.string   "title"
-    t.integer  "test_case_id"
-    t.integer  "test_result_id"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.string   "title",          limit: 255
+    t.integer  "test_case_id",   limit: 4
+    t.integer  "test_result_id", limit: 4
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
   create_table "use_cases", force: :cascade do |t|
-    t.string   "title"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "title",      limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
 end

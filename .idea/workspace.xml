@@ -15,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/UseCasesProject@Development__UseCasesProject.coverage" NAME="Development: UseCasesProject Coverage Results" MODIFIED="1427792180229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="UseCasesProject" />
+    <SUITE FILE_PATH="coverage/UseCasesProject@Development__UseCasesProject.coverage" NAME="Development: UseCasesProject Coverage Results" MODIFIED="1428651955314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="UseCasesProject" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,11 +29,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spreadsheet_importer.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RailsDependency/#UseCasesProject" pinned="false" current-in-tab="false">
+        <entry file="uml://RailsDependency/#UseCasesProject">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>RailsDependency</ID>
+              <OriginalElement>#UseCasesProject</OriginalElement>
+              <nodes>
+                <node x="0.0" y="306.0">DataFile</node>
+                <node x="0.0" y="22.0">UseCase</node>
+                <node x="281.0" y="0.0">TestCase</node>
+                <node x="598.0" y="22.0">TestStep</node>
+                <node x="0.0" y="175.0">TestExecution</node>
+                <node x="298.0" y="164.0">TestResult</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="TestExecution" target="TestResult">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="TestCase" target="TestStep">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="UseCase" target="TestCase">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5985221674876847" x="192.98765432098764" y="-305.01234567901236" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Association fields</Category>
+                <Category>Migration fields</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spreadsheet_importer.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/spreadsheet_importer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0588236" vertical-offset="0" max-vertical-offset="1560">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1650">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/roo-1.13.2/lib/roo/base.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5717" max-vertical-offset="12030">
+              <caret line="396" column="0" selection-start-line="396" selection-start-column="0" selection-end-line="396" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/upload_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,21 +118,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20150331014228_create_test_steps.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20150331014228_create_test_steps.rb">
+      <file leaf-file-name="20150331014213_create_test_cases.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20150331014213_create_test_cases.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.32608697" vertical-offset="0" max-vertical-offset="598">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20150331014255_create_test_results.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20150331014255_create_test_results.rb">
+      <file leaf-file-name="20150331014130_create_use_cases.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20150331014130_create_use_cases.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20150331014228_create_test_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20150331014228_create_test_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -89,67 +158,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20150331014213_create_test_cases.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20150331014213_create_test_cases.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rescue.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_controller/metal/rescue.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RailsDependency/#UseCasesProject" pinned="false" current-in-tab="false">
-        <entry file="uml://RailsDependency/#UseCasesProject">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>RailsDependency</ID>
-              <OriginalElement>#UseCasesProject</OriginalElement>
-              <nodes>
-                <node x="0.0" y="306.0">DataFile</node>
-                <node x="-3.5" y="22.0">UseCase</node>
-                <node x="270.5" y="0.0">TestCase</node>
-                <node x="584.0" y="22.0">TestStep</node>
-                <node x="-3.5" y="175.0">TestExecution</node>
-                <node x="291.0" y="164.0">TestResult</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="TestExecution" target="TestResult">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="TestCase" target="TestStep">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="UseCase" target="TestCase">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-112.5" y="64.5" />
-              <SelectedNodes>
-                <node>TestCase</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Association fields</Category>
-                <Category>Migration fields</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -157,20 +165,21 @@
       <list>
         <option value="$PROJECT_DIR$/app/views/upload/uploadfile.rhtml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/data_file.rb" />
         <option value="$PROJECT_DIR$/app/controllers/upload_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150331014130_create_use_cases.rb" />
         <option value="$PROJECT_DIR$/app/models/use_case.rb" />
         <option value="$PROJECT_DIR$/app/models/test_case.rb" />
         <option value="$PROJECT_DIR$/app/models/test_execution.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150331014213_create_test_cases.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150331014243_create_test_executions.rb" />
         <option value="$PROJECT_DIR$/app/models/test_result.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150331014255_create_test_results.rb" />
         <option value="$PROJECT_DIR$/app/models/test_step.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150331014228_create_test_steps.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/helpers/spreadsheet_importer.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150331014213_create_test_cases.rb" />
       </list>
     </option>
   </component>
@@ -185,10 +194,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
     <option name="y" value="23" />
-    <option name="width" value="1916" />
-    <option name="height" value="1177" />
+    <option name="width" value="838" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -262,6 +270,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UseCasesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UseCasesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -526,7 +548,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="23" width="1916" height="1177" extended-state="0" />
+    <frame x="0" y="23" width="838" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -535,19 +557,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20864461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31423292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902032" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24748744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31330472" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -571,7 +593,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/helpers/spreadsheet_importer.rb</url>
-          <line>91</line>
+          <line>97</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
@@ -579,257 +601,138 @@
           <line>31</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/upload_controller.rb</url>
+          <line>12</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/helpers/spreadsheet_importer.rb</url>
+          <line>62</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/test_result.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/use_case.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/test_step.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/upload/uploadfile.rhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/upload_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027124774" vertical-offset="0" max-vertical-offset="1106">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_controller/metal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2620" max-vertical-offset="3705">
-          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="11985">
-          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/roo-1.13.2/lib/roo/excelx.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3580" max-vertical-offset="10200">
-          <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.6.2/lib/nokogiri/xml/searchable.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2065" max-vertical-offset="3405">
-          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.6.2/lib/nokogiri/xml/node_set.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2575" max-vertical-offset="4755">
-          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_controller/metal/implicit_render.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.084033616" vertical-offset="0" max-vertical-offset="714">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014228_create_test_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5462185" vertical-offset="0" max-vertical-offset="714">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="255">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014255_create_test_results.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="270">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/test_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014213_create_test_cases.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="255">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_controller/metal/rescue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="615">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/spreadsheet_importer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://Ruby/TestCase">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Ruby</ID>
-          <OriginalElement>TestCase</OriginalElement>
-          <nodes>
-            <node x="" y="">ActiveRecord::AttributeMethods</node>
-            <node x="" y="">ActiveModel::SecurePassword</node>
-            <node x="" y="">ActiveModel::ForbiddenAttributesProtection</node>
-            <node x="" y="">ActiveRecord::Enum</node>
-            <node x="" y="">ActiveModel::Serializers::Xml</node>
-            <node x="" y="">ActiveRecord::Scoping::Default</node>
-            <node x="" y="">ActiveRecord::Querying</node>
-            <node x="" y="">ActiveRecord::Associations</node>
-            <node x="" y="">ActiveSupport::Autoload</node>
-            <node x="" y="">ActiveSupport::Callbacks</node>
-            <node x="" y="">ActiveModel::Conversion</node>
-            <node x="" y="">ActiveRecord::ConnectionHandling</node>
-            <node x="" y="">ActiveRecord::Delegation::DelegateCache</node>
-            <node x="" y="">ActiveRecord::Explain</node>
-            <node x="" y="">ActiveRecord::Integration</node>
-            <node x="" y="">ActiveRecord::Persistence</node>
-            <node x="" y="">ActiveRecord::AttributeMethods::Query</node>
-            <node x="" y="">ActiveRecord::Translation</node>
-            <node x="" y="">ActiveRecord::QueryCache::ClassMethods</node>
-            <node x="" y="">TestCase</node>
-            <node x="" y="">ActiveRecord::Serialization</node>
-            <node x="" y="">ActiveModel::Callbacks</node>
-            <node x="" y="">ActiveModel::Naming</node>
-            <node x="" y="">ActiveModel::Serializers::JSON</node>
-            <node x="" y="">ActiveModel::AttributeMethods</node>
-            <node x="" y="">ActiveModel::Dirty</node>
-            <node x="" y="">ActiveRecord::DynamicMatchers</node>
-            <node x="" y="">ActiveRecord::Aggregations</node>
-            <node x="" y="">ActiveRecord::Locking::Optimistic</node>
-            <node x="" y="">ActiveRecord::AttributeMethods::Dirty</node>
-            <node x="" y="">ActiveRecord::Validations</node>
-            <node x="" y="">ActiveRecord::AttributeMethods::Serialization</node>
-            <node x="" y="">ActiveRecord::Scoping</node>
-            <node x="" y="">ActiveRecord::Sanitization</node>
-            <node x="" y="">ActiveRecord::Locking::Pessimistic</node>
-            <node x="" y="">ActiveRecord::Scoping::Named</node>
-            <node x="" y="">ActiveRecord::AttributeMethods::BeforeTypeCast</node>
-            <node x="" y="">ActiveModel::Serialization</node>
-            <node x="" y="">ActiveRecord::ReadonlyAttributes</node>
-            <node x="" y="">ActiveRecord::Reflection</node>
-            <node x="" y="">ActiveSupport::Benchmarkable</node>
-            <node x="" y="">ActiveModel::Validations::HelperMethods</node>
-            <node x="" y="">ActiveRecord::Store</node>
-            <node x="" y="">ActiveRecord::NestedAttributes</node>
-            <node x="" y="">ActiveRecord::AttributeDecorators</node>
-            <node x="" y="">ActiveRecord::Inheritance</node>
-            <node x="" y="">ActiveSupport::Concern</node>
-            <node x="" y="">ActiveRecord::ModelSchema</node>
-            <node x="" y="">ActiveModel::Validations::Callbacks</node>
-            <node x="" y="">ActiveRecord::Attributes</node>
-            <node x="" y="">ActiveRecord::Timestamp</node>
-            <node x="" y="">ActiveRecord::Transactions</node>
-            <node x="" y="">ActiveRecord::AttributeMethods::Read</node>
-            <node x="" y="">ActiveRecord::AttributeAssignment</node>
-            <node x="" y="">ActiveRecord::AttributeMethods::TimeZoneConversion</node>
-            <node x="" y="">ActiveSupport::DescendantsTracker</node>
-            <node x="" y="">ActiveRecord::AttributeMethods::PrimaryKey</node>
-            <node x="" y="">ActiveRecord::AttributeMethods::Write</node>
-            <node x="" y="">ActiveModel::Translation</node>
-            <node x="" y="">ActiveRecord::Base</node>
-            <node x="" y="">ActiveRecord::AutosaveAssociation</node>
-            <node x="" y="">ActiveRecord::CounterCache</node>
-            <node x="" y="">ActiveModel::Validations</node>
-            <node x="" y="">ActiveRecord::Core</node>
-            <node x="" y="">ActiveRecord::Callbacks</node>
-            <node x="" y="">ActiveRecord::NoTouching</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.2730930720783765" x="2847.9999999999995" y="475.0" />
-          <SelectedNodes />
-          <Categories />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/use_case.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/test_result.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/data_file.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/test_step.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/test_execution.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014228_create_test_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="255">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/upload_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014255_create_test_results.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="270">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/test_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014213_create_test_cases.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="255">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_controller/metal/rescue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="615">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -862,14 +765,230 @@
               <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-112.5" y="64.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-112.0" y="65.0" />
           <SelectedNodes>
             <node>TestCase</node>
           </SelectedNodes>
           <Categories>
-            <Category>Association fields</Category>
             <Category>Migration fields</Category>
+            <Category>Association fields</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/use_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/upload/uploadfile.rhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/upload_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027124774" vertical-offset="0" max-vertical-offset="1106">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_controller/metal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2620" max-vertical-offset="3705">
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/activesupport-4.2.1/lib/active_support/callbacks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="11985">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/roo-1.13.2/lib/roo/excelx.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3580" max-vertical-offset="10200">
+          <caret line="252" column="0" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.6.2/lib/nokogiri/xml/searchable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2065" max-vertical-offset="3405">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.6.2/lib/nokogiri/xml/node_set.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2575" max-vertical-offset="4755">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_controller/metal/implicit_render.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.084033616" vertical-offset="0" max-vertical-offset="714">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5462185" vertical-offset="0" max-vertical-offset="714">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Ruby/TestCase">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Ruby</ID>
+          <OriginalElement>TestCase</OriginalElement>
+          <nodes>
+            <node x="" y="">ActiveRecord::AttributeMethods</node>
+            <node x="" y="">ActiveModel::SecurePassword</node>
+            <node x="" y="">ActiveModel::ForbiddenAttributesProtection</node>
+            <node x="" y="">ActiveRecord::Enum</node>
+            <node x="" y="">ActiveModel::Serializers::Xml</node>
+            <node x="" y="">ActiveRecord::Scoping::Default</node>
+            <node x="" y="">ActiveRecord::Querying</node>
+            <node x="" y="">ActiveRecord::Associations</node>
+            <node x="" y="">ActiveSupport::Autoload</node>
+            <node x="" y="">ActiveSupport::Callbacks</node>
+            <node x="" y="">ActiveModel::Conversion</node>
+            <node x="" y="">ActiveRecord::ConnectionHandling</node>
+            <node x="" y="">ActiveRecord::Delegation::DelegateCache</node>
+            <node x="" y="">ActiveRecord::Explain</node>
+            <node x="" y="">ActiveRecord::Persistence</node>
+            <node x="" y="">ActiveRecord::Integration</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Query</node>
+            <node x="" y="">ActiveRecord::QueryCache::ClassMethods</node>
+            <node x="" y="">ActiveRecord::Translation</node>
+            <node x="" y="">ActiveRecord::Serialization</node>
+            <node x="" y="">TestCase</node>
+            <node x="" y="">ActiveModel::Callbacks</node>
+            <node x="" y="">ActiveModel::Naming</node>
+            <node x="" y="">ActiveModel::Serializers::JSON</node>
+            <node x="" y="">ActiveModel::AttributeMethods</node>
+            <node x="" y="">ActiveModel::Dirty</node>
+            <node x="" y="">ActiveRecord::DynamicMatchers</node>
+            <node x="" y="">ActiveRecord::Aggregations</node>
+            <node x="" y="">ActiveRecord::Locking::Optimistic</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Dirty</node>
+            <node x="" y="">ActiveRecord::Validations</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Serialization</node>
+            <node x="" y="">ActiveRecord::Scoping</node>
+            <node x="" y="">ActiveRecord::Sanitization</node>
+            <node x="" y="">ActiveRecord::Locking::Pessimistic</node>
+            <node x="" y="">ActiveRecord::Scoping::Named</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::BeforeTypeCast</node>
+            <node x="" y="">ActiveModel::Serialization</node>
+            <node x="" y="">ActiveRecord::ReadonlyAttributes</node>
+            <node x="" y="">ActiveRecord::Reflection</node>
+            <node x="" y="">ActiveSupport::Benchmarkable</node>
+            <node x="" y="">ActiveModel::Validations::HelperMethods</node>
+            <node x="" y="">ActiveRecord::Store</node>
+            <node x="" y="">ActiveRecord::NestedAttributes</node>
+            <node x="" y="">ActiveRecord::AttributeDecorators</node>
+            <node x="" y="">ActiveRecord::Inheritance</node>
+            <node x="" y="">ActiveSupport::Concern</node>
+            <node x="" y="">ActiveRecord::ModelSchema</node>
+            <node x="" y="">ActiveModel::Validations::Callbacks</node>
+            <node x="" y="">ActiveRecord::Timestamp</node>
+            <node x="" y="">ActiveRecord::Attributes</node>
+            <node x="" y="">ActiveRecord::Transactions</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Read</node>
+            <node x="" y="">ActiveRecord::AttributeAssignment</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::TimeZoneConversion</node>
+            <node x="" y="">ActiveSupport::DescendantsTracker</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::PrimaryKey</node>
+            <node x="" y="">ActiveModel::Translation</node>
+            <node x="" y="">ActiveRecord::AttributeMethods::Write</node>
+            <node x="" y="">ActiveRecord::Base</node>
+            <node x="" y="">ActiveRecord::CounterCache</node>
+            <node x="" y="">ActiveRecord::AutosaveAssociation</node>
+            <node x="" y="">ActiveModel::Validations</node>
+            <node x="" y="">ActiveRecord::Core</node>
+            <node x="" y="">ActiveRecord::Callbacks</node>
+            <node x="" y="">ActiveRecord::NoTouching</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2730930720783765" x="2848.0" y="475.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/use_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/data_file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/test_execution.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -877,15 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014130_create_use_cases.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10504202" vertical-offset="0" max-vertical-offset="714">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,30 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/test_result.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/test_case.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014213_create_test_cases.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -929,10 +1015,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/test_result.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/#UseCasesProject">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>#UseCasesProject</OriginalElement>
+          <nodes>
+            <node x="0.0" y="306.0">DataFile</node>
+            <node x="0.0" y="22.0">UseCase</node>
+            <node x="281.0" y="0.0">TestCase</node>
+            <node x="598.0" y="22.0">TestStep</node>
+            <node x="0.0" y="175.0">TestExecution</node>
+            <node x="298.0" y="164.0">TestResult</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="TestExecution" target="TestResult">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="TestCase" target="TestStep">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="UseCase" target="TestCase">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5985221674876847" x="192.98765432098764" y="-305.01234567901236" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/upload_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/roo-1.13.2/lib/roo/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5717" max-vertical-offset="12030">
+          <caret line="396" column="0" selection-start-line="396" selection-start-column="0" selection-end-line="396" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/test_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/test_step.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/spreadsheet_importer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1650">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -945,18 +1124,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/roo-1.13.2/lib/roo/base.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014130_create_use_cases.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="5717" max-vertical-offset="12030">
-          <caret line="397" column="0" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/spreadsheet_importer.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150331014213_create_test_cases.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0588236" vertical-offset="0" max-vertical-offset="1560">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.32608697" vertical-offset="0" max-vertical-offset="598">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding />
         </state>
       </provider>

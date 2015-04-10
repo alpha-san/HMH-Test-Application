@@ -31,10 +31,12 @@ class SpreadsheetImporter
       # create use case
       this_use_case = UseCase.new
       this_use_case.title = name
+      this_use_case.save
 
       # create test execution
       this_test_execution = TestExecution.new
       this_test_execution.date = sheet.cell(1,'C')
+      this_test_execution.save
 
       i = 2
       while i < sheet.last_row do
@@ -42,9 +44,11 @@ class SpreadsheetImporter
 
         # create test case
         this_test_case = TestCase.new
+        this_test_case.use_case_id = this_use_case.id
         this_test_case.id_description = sheet.row(i)[1]
         i += 1
         this_test_case.title = sheet.row(i)[1]
+        this_test_case.save
         i += 2
 
         this_test_steps = Array.new
@@ -56,12 +60,14 @@ class SpreadsheetImporter
            this_test_step = TestStep.new
            this_test_step.title = sheet.row(i)[1]
            this_test_case.test_steps << this_test_step
+           this_test_step.test_case_id = this_test_case.id
            this_test_step.save
 
            this_test_steps << this_test_step
 
            # create test result
            this_test_result = TestResult.new
+           this_test_result.test_execution_id = this_test_execution.id
            this_test_result.status = sheet.row(i)[2][0,1] == "Y"
 
            if (sheet.row(i)[2].length > 1)
